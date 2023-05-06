@@ -146,3 +146,7 @@ next.addEventListener('click', nextsong);
 
 
 previous.addEventListener('click', prevsong);
+//Step 1: Defining all the variables and accessing the HTML elements 
+The required elements in the HTML layout that are to be dynamically changed are first selected using the querySelector() method. They are then assigned variable names so that they could be accessed and modified. Other variables that would be accessed throughout the program are also defined.
+Step 2: Loading a new track from the tracklist 
+All the tracks that have to be played are defined in the tracklist as objects. These objects contain properties like the name, artist, image and path to the track. Each of the tracks can then be accessed using its track index.//
